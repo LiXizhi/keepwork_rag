@@ -5,6 +5,7 @@
 一个强大的文档转换工具，支持将DOC、DOCX、PDF、HTML、Excel等格式的文档自动转换为Markdown格式，并提供类似rsync的增量同步功能。用户批量同步RAG数据源。内部转化工具支持pandoc, unstructured, mammoth, xlsx。 
 
 将./data 目录下的所有文件（含子目录）转为./data_markdown 目录下。 只转变化的文件，./data/.filehashes 保存文件hash值，若需要可以清除这个文件。 
+可以将./data_markldown目录下的文件同步到keepwork git项目的某个目录下， 并作为rag数据源。
 
 ## ✨ 主要功能
 
